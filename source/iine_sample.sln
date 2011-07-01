@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iine_sample", "iine_sample\iine_sample.csproj", "{70B4EEE4-D10D-4EA3-9663-0EB00F19D72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iine_sample.Web", "iine_sample.Web\iine_sample.Web.csproj", "{0883846E-2AB7-409C-BC01-A9B78B498651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B4EEE4-D10D-4EA3-9663-0EB00F19D72C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{70B4EEE4-D10D-4EA3-9663-0EB00F19D72C}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{70B4EEE4-D10D-4EA3-9663-0EB00F19D72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B4EEE4-D10D-4EA3-9663-0EB00F19D72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0883846E-2AB7-409C-BC01-A9B78B498651}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{0883846E-2AB7-409C-BC01-A9B78B498651}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{0883846E-2AB7-409C-BC01-A9B78B498651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0883846E-2AB7-409C-BC01-A9B78B498651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
