@@ -1,0 +1,5 @@
+﻿<xapCache source="C:\src\git\client\client\source\iine_sample\Bin\Release\iine_sample.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2011/07/02 17:27:31">
+  <file source="C:\src\git\client\client\source\iine_sample\obj\Release\iine_sample.dll" archivePath="iine_sample.dll" lastWriteTime="2011/07/02 17:27:30" />
+  <file source="C:\src\git\client\client\source\iine_sample\Bin\index.html" archivePath="Bin\index.html" lastWriteTime="2011/07/02 17:23:27" />
+  <file source="C:\src\git\client\client\source\iine_sample\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2011/07/02 17:27:30" />
+</xapCache>

@@ -14,11 +14,17 @@ function xhrFunc() {
             if (xhrObj.status == 200) {
 
                 //②SilverlightへCallbackを返す
-                 //デバッグ実行時はこちらを使う
-                var plugin = document.getElementById("silverlightControlHost");
-                plugin = plugin.childNodes[1];
-                
-   		        //var plugin = document.getElementById("slobj");	
+
+                ////////////////////////デバッグ実行時はこちらを使う///////////////
+                var plugin = document.getElementById("silverlightControlHost"); //デバッグ実行時はこちらを使う
+                plugin = plugin.childNodes[1]; //デバッグ実行時はこちらを使う
+                ////////////////////// //デバッグ実行時はこちらを使う///////////////
+
+
+                ////////////////////////パッケージではこちらを使う///////////////
+                //var plugin = document.getElementById("slobj");	
+                ////////////////////////パッケージではこちらを使う///////////////
+               
                 plugin.Content.SVL.ShowSVL(xhrObj.responseText);
                 
             }

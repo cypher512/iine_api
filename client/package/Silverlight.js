@@ -12,9 +12,19 @@ function xhrFunc() {
     xhrObj.onreadystatechange = function () {
         if (xhrObj.readyState == 4) {
             if (xhrObj.status == 200) {
-            
-           		//②SilverlightへCallbackを返す
-   		        var plugin = document.getElementById("slobj");	
+
+                //②SilverlightへCallbackを返す
+
+                ////////////////////////デバッグ実行時はこちらを使う///////////////
+                //var plugin = document.getElementById("silverlightControlHost"); //デバッグ実行時はこちらを使う
+                //plugin = plugin.childNodes[1]; //デバッグ実行時はこちらを使う
+                ////////////////////// //デバッグ実行時はこちらを使う///////////////
+
+
+                ////////////////////////パッケージではこちらを使う///////////////
+                var plugin = document.getElementById("slobj");	
+                ////////////////////////パッケージではこちらを使う///////////////
+               
                 plugin.Content.SVL.ShowSVL(xhrObj.responseText);
                 
             }
