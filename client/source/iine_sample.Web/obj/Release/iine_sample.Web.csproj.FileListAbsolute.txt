@@ -1,8 +1,3 @@
-C:\src\git\client\source\iine_sample.Web\bin\iine_sample.Web.dll
-C:\src\git\client\source\iine_sample.Web\bin\iine_sample.Web.pdb
-C:\src\git\client\source\iine_sample.Web\obj\Release\ResolveAssemblyReference.cache
-C:\src\git\client\source\iine_sample.Web\obj\Release\iine_sample.Web.dll
-C:\src\git\client\source\iine_sample.Web\obj\Release\iine_sample.Web.pdb
 C:\src\git\client\client\source\iine_sample.Web\bin\iine_sample.Web.dll
 C:\src\git\client\client\source\iine_sample.Web\bin\iine_sample.Web.pdb
 C:\src\git\client\client\source\iine_sample.Web\obj\Release\ResolveAssemblyReference.cache

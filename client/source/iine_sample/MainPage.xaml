@@ -8,16 +8,40 @@
 
         <Canvas x:Name="heart" Canvas.Left="0" Canvas.Top="0" Grid.Column="1" Margin="279.333,50,558,375" Grid.ColumnSpan="3" Width="585" Height="575" HorizontalAlignment="Center" VerticalAlignment="Top">
 	    <Path x:Name="Path" Width="500" Height="358" Canvas.Left="42" Canvas.Top="0" Stretch="Fill" Fill="#FFF9BFD6" Data="F1 M 11.0832,4.47601C 21.6667,-3.10524 38.5592,-1.91783 49.8564,15.5019C 61.345,-3.21505 78.4879,-2.62379 88.9167,4.84667C 103.749,15.4717 103.686,39.8903 88.7762,59.3872C 76.8526,74.9788 59.0448,82.7014 44.8037,79.7358C 32.9928,78.3144 20.3752,70.9832 11.2238,59.0166C -3.68638,39.5196 -3.74931,15.101 11.0832,4.47601 Z "/>
-        <TextBox Height="36" HorizontalAlignment="Center" Margin="187.5,452,394.5,307" VerticalAlignment="Center" Width="524" Text="当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。当サイトの説明が入ります。" FontSize="13" TextAlignment="Left" Visibility="Visible" BorderThickness="0" Foreground="#FFF39ABD" TextWrapping="Wrap" Grid.Column="1" FontWeight="Bold" FontFamily="Verdana" Grid.ColumnSpan="3" Canvas.Left="-143" Canvas.Top="-79" />
-        <TextBox BorderThickness="0" FontSize="12" Height="53" HorizontalAlignment="Center" Margin="187.5,616,394.5,126" Text="お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断りが入ります。お断り" TextAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Visibility="Visible" Width="524" Grid.Column="1" FontFamily="Verdana" Grid.ColumnSpan="3" Canvas.Left="-143" Canvas.Top="-100" />
-        <TextBox BorderThickness="0" FontSize="12" Height="95" HorizontalAlignment="Center" Margin="187.5,485,394.5,215" Text="表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。表示に対しての説明が入ります。" TextAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Center" Visibility="Visible" Width="524" Grid.Column="1" FontFamily="Verdana" Grid.ColumnSpan="3" Canvas.Left="-143" Canvas.Top="-60" />
-        <TextBox Grid.Column="3" Height="115" HorizontalAlignment="Left" Margin="249,528,0,0" VerticalAlignment="Top" Width="150" Text="東日本大震災関連サイトを運営されている方々に「復興いいね！」ボタンの設置のご協力をお願いしています。" TextWrapping="Wrap" BorderThickness="0" HorizontalContentAlignment="Right" Canvas.Left="397" Canvas.Top="-113" />
-        <Image Grid.Column="3" Height="38" HorizontalAlignment="Left" Margin="295,485,0,0" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/iine_sample;component/Bin/iine.jpg" Canvas.Left="390" Canvas.Top="-110" />
-        <Rectangle Grid.Column="3" Height="199" HorizontalAlignment="Left" Margin="221,444,0,0" Stroke="Plum" StrokeThickness="1" VerticalAlignment="Top" Width="185" Canvas.Left="-373" Canvas.Top="-797" />
-        <TextBox Text="FUKKOU IINE!" Foreground="White" Background="Plum" FontSize="17" TextAlignment="Right" FontFamily="Arial Black" Grid.Column="1" Margin="311,12,86.526,782" Canvas.Left="-267" Canvas.Top="-50" />
-        <TextBox Text="FUKKOU IINE!" Foreground="White" Background="Plum" FontSize="17" TextAlignment="Right" FontFamily="Arial Black" Grid.Column="1" Margin="311,12,86.526,782" Canvas.Left="338" Canvas.Top="330" />
-        <HyperlinkButton Content="詳しくはこちら" Margin="256,614.334,0,209.333" NavigateUri="http://www.112api.jp/" Width="110" Grid.Column="3" HorizontalContentAlignment="Center" Background="WhiteSmoke" HorizontalAlignment="Left" Canvas.Left="426" Canvas.Top="-124" Height="22" />
-        <TextBox Grid.Column="3" Height="42" HorizontalAlignment="Left" Margin="171,662,0,0" VerticalAlignment="Top" Width="235" Text="copyright 2011 - Fukkou iine all rights reserved since 2011" TextWrapping="Wrap" TextAlignment="Right" BorderThickness="0" Canvas.Left="421" Canvas.Top="-144" />
-        <Rectangle Canvas.Left="627" Canvas.Top="335" Height="175" Stroke="Black" StrokeThickness="1" Width="200" />
-   </Canvas>
+        <!--コメント化　ここから-->
+        
+        <HyperlinkButton Canvas.Left="120" Canvas.Top="6" Content="Hack for Japan" Height="35" Width="110" NavigateUri="http://www.hack4.jp/"/>
+        <HyperlinkButton Canvas.Left="350" Canvas.Top="12" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="69" Canvas.Top="61" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="164" Canvas.Top="61" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="319" Canvas.Top="61" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="423" Canvas.Top="61" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="213" Canvas.Top="158" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="154" Canvas.Top="90" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="249" Canvas.Top="90" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="350" Canvas.Top="90" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="452" Canvas.Top="90" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="249" Canvas.Top="202" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="56" Canvas.Top="120" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="166" FontSize="16" />
+        <HyperlinkButton Canvas.Left="423" Canvas.Top="120" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="121" FontSize="16" />
+        <HyperlinkButton Canvas.Left="60" Canvas.Top="161" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="170" FontSize="18" />
+        <HyperlinkButton Canvas.Left="350" Canvas.Top="161" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="452" Canvas.Top="161" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="60" Canvas.Top="202" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="154" Canvas.Top="202" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="438" Canvas.Top="202" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="77" Canvas.Top="233" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="195" Canvas.Top="233" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="120" Canvas.Top="266" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="350" Canvas.Top="202" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="274" Canvas.Top="266" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="186" FontSize="22" />
+        <HyperlinkButton Canvas.Left="154" Canvas.Top="305" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="319" Canvas.Top="305" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="277" Canvas.Top="220" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="225" FontSize="24" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" VerticalAlignment="Bottom" />
+        <HyperlinkButton Canvas.Left="91" Canvas.Top="35" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="423" Canvas.Top="35" Content="Hack for Japan" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        <HyperlinkButton Canvas.Left="249" Canvas.Top="120" Content="Hack for Japan" FontSize="16" Height="35" NavigateUri="http://www.hack4.jp/" Width="110" />
+        
+        <!--コメント化　ここまで-->
+    </Canvas>
 </UserControl>

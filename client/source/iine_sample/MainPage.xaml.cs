@@ -35,7 +35,7 @@ namespace iine_sample
             
             var w = HtmlPage.Window;
             //////////////////////////////////
-            var r = (ScriptObject)w.Invoke("xhrFunc");
+            //var r = (ScriptObject)w.Invoke("xhrFunc");//ここをコメントするとAjax動かない
 
             string v3 = Convert.ToString(w.GetProperty("view"));
  
