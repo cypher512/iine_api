@@ -1,0 +1,12 @@
+<!-- Indices written at Thu, 8 Sep 2011 11:33:46 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Vote" ancestor="false" source="auto">
+        <property name="userKey" direction="asc"/>
+        <property name="urlKey" direction="desc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

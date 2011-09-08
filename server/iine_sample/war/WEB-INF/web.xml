@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+	<servlet>
+		<servlet-name>UserUrlListS</servlet-name>
+		<servlet-class>servlet.UserUrlListS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserUrlListS</servlet-name>
+		<url-pattern>/UserUrlListS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UrlListS</servlet-name>
+		<servlet-class>servlet.UrlListS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UrlListS</servlet-name>
+		<url-pattern>/UrlListS</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TagListS</servlet-name>
+		<servlet-class>servlet.TagListS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TagListS</servlet-name>
+		<url-pattern>/TagListS</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>transactions</servlet-name>
+		<servlet-class>servlet.RegS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>transactions</servlet-name>
+		<url-pattern>/RegS</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegTagS</servlet-name>
+		<servlet-class>servlet.RegTagS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegTagS</servlet-name>
+		<url-pattern>/RegTagS</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>
