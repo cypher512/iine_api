@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>復興いいね　カナリアプロジェクト</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        function UrlUpdate(data) {
+            $('#UserUrlList a').empty();
+            $.each(data, function (k, data) {
+	            $('#UserUrlList')
+	                .append(
+                        $('<a></a>')
+                            .attr('href', this.url)
+                            .html(this.title)
+	                    
+	                )
+	                .append(
+	                		$('<span></span>')
+	                			.html(' ' + this.date + 'に登録')
+	                )			
+	                .append(
+	                	$('<form></form>')
+                            .attr('method', 'get')
+                            .attr('action', 'TagEditS.html')
+                            .append(
+                            	$('<button></button>')
+                            		.attr('type', 'submit')
+                            		.attr('name', 'urlKey')
+                            		.attr('value', this.urlKey)
+                            		.html('タグ編集')
+                            )
+	                )
+	            $.each(data.tagArray, function () {
+	                $('#UserUrlList')
+	                    .append(
+	                        $('<ul></ul>')
+	                        	.append(
+	                        		$('<li></li>')
+	                        			.append(
+	                        				$( '<a></a>')
+				                                .attr('href', 'TagListS.html?tagKey=' + this.tagKey)
+				                                .html(this.tag)
+				                        )        
+		                         )    
+	                    );
+	                    
+	           });         
+
+
+            });
+
+        }
+
+        $.ajaxSetup({ cache: false });
+        $.getJSON('/UserUrlListS', null, UrlUpdate);
+
+
+    });  
+</script>
+</head>
+<body>
+	<div id=UserUrlList>
+	<h3>ユーザごとのリスト</h3>
+	
+	</div>
+	<a href=/>トップページに戻る</a>
+</body>
+</html>
+
+
+
+

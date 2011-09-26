@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>復興いいね　カナリアプロジェクト</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="jquery.query-2.1.7.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        function UrlUpdate(data) {
+            $('#TagList a').empty();
+            $.each(data, function (k, data) {
+	            $('#TagList')
+	                .append(
+                        $('<a></a>')
+                            .attr('href', this.url)
+                            .html(this.title)
+	                    
+	                )
+	                .append(
+	                	$('<form></form>')
+                            .attr('method', 'get')
+                            .attr('action', 'TagEditS.html')
+                            .append(
+                            	$('<button></button>')
+                            		.attr('type', 'submit')
+                            		.attr('name', 'urlKey')
+                            		.attr('value', this.urlKey)
+                            		.html('タグ編集')
+                            )
+	                )
+	            $.each(data.tagArray, function () {
+	                $('#TagList')
+	                    .append(
+	                        $('<ul></ul>')
+	                        	.append(
+	                        		$('<li></li>')
+	                        			.append(
+	                        				$( '<a></a>')
+				                                .attr('href', 'TagListS.html?tagKey=' + this.tagKey)
+				                                .html(this.tag)
+				                        )        
+		                         )    
+	                    );
+	                    
+	           });         
+
+
+            });
+
+        }
+        var tagKeyVal = $.query.get('tagKey');
+        $.ajaxSetup({ cache: false });
+        $.getJSON('/TagListS', {tagKey: tagKeyVal}, UrlUpdate);
+
+
+    });  
+</script>
+</head>
+<body>
+	<div id=TagList>
+	<h3>タグによるリスト</h3>
+	
+	</div>
+	<a href=/>トップページに戻る</a>
+</body>
+</html>
+
+
+
+

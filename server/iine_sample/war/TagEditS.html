@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>復興いいね　カナリアプロジェクト</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="jquery.query-2.1.7.js"></script>
+<script type="text/javascript">
+	var tagVal, urlKeyVal, cmdVal;
+    $(function () {
+        urlKeyVal = $.query.get('urlKey');				//引数をとり出す
+        tagVal = $.query.get('tag');
+
+        $.ajaxSetup({ cache: false });						//cache無効化
+	    $.getJSON('/TagEditS', {tag: tagVal, urlKey: urlKeyVal, cmd: cmdVal}, UrlUpdate);	//JSONとって来る
+        
+		//Tag追加時のcallback関数
+		function TagAdd(data){
+	        $.ajaxSetup({ cache: false });						//cache無効化
+	        cmdVal = 'add'; tagVal = data;
+	        $('#TagList a').empty();								//一旦全て消す
+	        $.getJSON('/TagEditS', {tag: tagVal, urlKey: urlKeyVal, cmd: 'add'}, UrlUpdate);	//JSONとって来る
+		}
+		//Tag削除時のcallback関数
+		function TagDel(data){
+	        $.ajaxSetup({ cache: false });						//cache無効化
+	        cmdVal = 'del'; tagVal = data;
+	        $('#TagList a').empty();								//一旦全て消す
+	        $.getJSON('/TagEditS', {tag: tagVal, urlKey: urlKeyVal, cmd: 'del'}, UrlUpdate);	//JSONとって来る
+		}
+		
+		//HTML読み込み時のcallback関数
+	    function UrlUpdate(data) {
+	        $('#TagList').empty();								//一旦全て消す
+	        $('#TagList')
+	        	.append(
+	        		$('<h3></h3>')
+	        			.html(data.title + '登録タグを編集中')
+	        	)
+	            .append(
+	            	$('<form></form>')							//タグ登録ボタン
+	                    .attr('method', 'get')
+	                    .append(
+	                    	$('<input></input>')
+	                    		.attr('type', 'text')
+	                    		.attr('name', 'tag')
+	                    )
+	                    .append(
+	                    	$('<input></input>')
+	                    		.attr('type', 'submit')
+	                    		.attr('value', '登録')
+	                    )
+                		.submit(function(){
+					    	var t = $('form > input').val();
+                        	TagAdd(t);
+                        	return false;
+                		})
+	            )
+	        $.each(data.tagArray, function (k, data) {					//ループ
+	            var tagVal = data.tag;        			
+	            $('#TagList')
+	                .append(
+	                    $('<ul></ul>')							//タグへのリンク
+	                    	.append(
+	                    		$('<li></li>')
+	                    			.html(this.tag)
+	                    			.append(
+	                    				$( '<form></form>')
+			                                .attr('method', 'get')
+			                                .append(
+			                                	$('<input></input>')
+			                                		.attr('type', 'submit')
+			                                		.attr('value', '削除')
+							                        .click(function(){
+							                        	TagDel(tagVal);
+							                        	return false;
+							                        })        
+			                                )
+			                        )
+	                         )    
+	                );
+	                    
+	       });         
+	    }
+	    $('document')
+	    
+    }); 
+
+     
+
+    
+</script>
+</head>
+<body>
+	<div id=TagList>
+	
+	</div>
+	<a href=/UserUrlListS.html>ユーザごとのリストに戻る</a>
+</body>
+</html>
+
+
+
+

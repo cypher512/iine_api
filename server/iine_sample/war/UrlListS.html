@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>復興いいね　カナリアプロジェクト</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+    
+        //URL検索
+        function UrlUpdate(data) {
+            $('#urllist a').empty();
+            $.each(data, function () {
+                $('#urllist')
+                    .append(
+                        $('<p></p>').append(
+                            $('<a></a>')
+                                .attr('href', this.Url)
+                                .html(this.LinkName)
+                        )
+                    );
+
+
+            });
+
+        }
+
+        $.ajaxSetup({ cache: false });
+        $.getJSON('/UrlListS', null, UrlUpdate);
+
+
+    });  
+</script>
+</head>
+<body>
+	<div id=urllist>
+	<h3>URL一覧(本来の表紙)</h3>
+	</div>
+	<a href=/>トップページに戻る</a>
+</body>
+</html>
+
+
