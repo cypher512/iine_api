@@ -7,3 +7,5 @@ client        クライアント側の環境
   +-  source  ソースコード
 sercer
   +-  iine_sample サーバ側のEclipseパッケージ
+  +-  iine α版時のEclipseパッケージ
+
