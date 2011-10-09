@@ -2,8 +2,5 @@
 冴木元による開発版であるため、内容は公式版と異なることがあります
 
 ディレクトリ構成
-client        クライアント側の環境
-  +-  package パッケージ
-  +-  source  ソースコード
-sercer
+server
   +-  iine_sample サーバ側のEclipseパッケージ
