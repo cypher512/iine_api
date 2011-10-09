@@ -1,0 +1,48 @@
+package org.iine.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.iine.component.UrlManagerC;
+
+public class RegTitleS extends HttpServlet{
+	private static final long serialVersionUID = 4892202511690867285L;
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		req.setCharacterEncoding("UTF-8");
+		resp.setCharacterEncoding("UTF-8");
+		
+		String id = req.getParameter("id");
+		String pass = req.getParameter("pass");
+		String title = req.getParameter("title");
+		
+		if (isEmpty(id)) return ;
+		if (isEmpty(pass))	return;
+		if (isEmpty(title)) return;
+		
+		UrlManagerC url = new UrlManagerC(id);
+		url.setTitle(title);
+		url.write();
+		
+		PrintWriter w =  resp.getWriter();
+		w.print("設定しました。");
+		
+	}
+	
+	
+	
+	private boolean isEmpty(String val) {
+		return ((val == null) || (val.equals("")));
+	}
+
+	
+	
+}

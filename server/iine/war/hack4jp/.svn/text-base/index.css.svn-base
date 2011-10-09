@@ -1,0 +1,155 @@
+/* ::::: http://www.gstatic.com/sites/p/cac28e/system/app/themes/microsport/standard-css-microsport-ltr-ltr.css ::::: */
+
+.goog-inline-block { position: relative; display: inline-block; }
+:first-child + html .goog-inline-block { display: inline; }
+:first-child + html .goog-custom-button-inner-box { left: -1px; }
+:first-child + html .goog-custom-button-rtl .goog-custom-button-inner-box { left: 1px; }
+:first-child + html .goog-custom-button-disabled { margin: 2px 1px ! important; padding: 0pt 1px ! important; }
+:first-child + html .goog-custom-button-collapse-left .goog-custom-button-inner-box { left: 0pt; }
+.goog-button { color: rgb(0, 51, 102); border-color: rgb(0, 51, 102); background-color: rgb(102, 153, 204); }
+:first-child + html .goog-menu-button-inner-box { left: -1px; }
+:first-child + html .goog-menu-button-rtl .goog-menu-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-menu-button-disabled { margin: 2px 1px ! important; padding: 0pt 1px ! important; }
+:first-child + html .goog-toolbar-button-inner-box { left: -1px; }
+:first-child + html .goog-toolbar-button-rtl .goog-toolbar-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-toolbar-button-disabled { background-color: rgb(240, 240, 240); margin: 0pt 1px; padding: 0pt 1px; }
+:first-child + html .goog-toolbar-button-collapse-left .goog-toolbar-button-inner-box { left: 0pt; }
+:first-child + html .goog-toolbar-menu-button-inner-box { left: -1px; }
+:first-child + html .goog-toolbar-menu-button-rtl .goog-toolbar-menu-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-toolbar-menu-button-disabled { background-color: rgb(240, 240, 240); margin: 0pt 1px; padding: 0pt 1px; }
+#sites-header-title { padding-left: 5px; overflow: visible; }
+#title-crumbs { padding: 5px 0pt 0pt 10px; }
+.sites-layout-searchbox { text-align: right; padding-right: 6px; }
+#sites-chrome-everything .sites-layout-sidebar-left { padding-left: 5px; }
+.sites-sidebar-nav li { list-style: none outside none; padding: 2px 0pt 0pt; margin: 1px 0pt 0pt; }
+.sites-sidebar-nav .expander { float: left; width: 11px; height: 11px; padding: 0pt 2px; margin: 1px 0pt 0pt 4px; background: url('tree_ltr.gif') no-repeat scroll -194px -27px transparent; }
+.sites-sidebar-nav .current-bg { font-weight: bold; }
+.sites-embed-title { font-size: 13px; margin: 0pt; padding: 3px 5px; text-align: left; }
+.sites-embed-content { text-align: left; }
+#sites-chrome-header .sites-header-secondary-row td { padding: 0pt 4px ! important; }
+.sites-layout-hbox { width: 100%; table-layout: fixed; }
+.sites-layout-hbox td.sites-layout-tile { vertical-align: top; }
+.sites-layout-tile { padding: 3px; }
+:first-child + html .share-client-dialog { max-height: none ! important; overflow: visible ! important; }
+html > body .goog-inline-block { display: inline-block; }
+.goog-inline-block { position: relative; display: inline-block; }
+:first-child + html .goog-inline-block { display: inline; }
+.goog-button-base { cursor: default; font: 1.3em/1 Arial,sans-serif; letter-spacing: normal; margin: 0pt 1px; outline: medium none; text-align: center; text-indent: 0pt; text-transform: none; vertical-align: baseline; white-space: nowrap; word-spacing: normal; }
+.goog-button-base-outer-box { border-top: 1px solid rgb(187, 187, 187); border-bottom: 1px solid rgb(170, 170, 170); }
+.goog-button-base-inner-box { background: none repeat scroll 0% 0% rgb(227, 227, 227); border-left: 1px solid rgb(187, 187, 187); border-right: 1px solid rgb(170, 170, 170); margin: 0pt -1px; }
+.goog-button-base-pos { height: 100%; position: relative; }
+.goog-button-base-top-shadow { background: none repeat scroll 0% 0% rgb(249, 249, 249); border-bottom: 0.23em solid rgb(238, 238, 238); height: 0.692em; left: 0pt; overflow: hidden; position: absolute; right: 0pt; top: 0pt; }
+.goog-button-base-content { color: rgb(51, 51, 51); line-height: 1.65em; position: relative; padding: 0pt 0.461em; text-align: center; }
+:first-child + html .goog-button-base-inner-box { left: -1px; }
+:first-child + html .goog-button-base-content { display: inline-block; }
+:first-child + html .goog-button-base-rtl .goog-button-base-inner-box { left: 1px; }
+:first-child + html .goog-menu-button-dropdown { top: 0.7em; }
+:first-child + html .goog-button-base-collapse-left .goog-button-base-inner-box { left: 0pt; }
+:first-child + html .goog-button-base-rtl.goog-button-base-collapse-left .goog-button-base-inner-box { left: 1px; }
+:first-child + html .goog-button-base-rtl.goog-button-base-collapse-right .goog-button-base-inner-box { left: 0pt; }
+:first-child + html .goog-button-base-rtl.goog-button-base-hover.goog-button-base-collapse-left, :first-child + html .goog-button-base-rtl.goog-button-base-focused.goog-button-base-collapse-left { border-left: 1px solid rgb(136, 136, 136); margin-left: -1px; }
+.goog-inline-block { position: relative; display: inline-block; }
+:first-child + html .goog-inline-block { display: inline; }
+:first-child + html .goog-menu-button-inner-box { left: -1px; }
+:first-child + html .goog-menu-button-rtl .goog-menu-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-menu-button-disabled { margin: 2px 1px ! important; padding: 0pt 1px ! important; }
+:first-child + html .goog-custom-button-inner-box { left: -1px; }
+:first-child + html .goog-custom-button-rtl .goog-custom-button-inner-box { left: 1px; }
+:first-child + html .goog-custom-button-disabled { margin: 2px 1px ! important; padding: 0pt 1px ! important; }
+:first-child + html .goog-custom-button-collapse-left .goog-custom-button-inner-box { left: 0pt; }
+.goog-button { color: rgb(0, 51, 102); border-color: rgb(0, 51, 102); background-color: rgb(102, 153, 204); }
+:first-child + html .goog-toolbar-button-inner-box { left: -1px; }
+:first-child + html .goog-toolbar-button-rtl .goog-toolbar-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-toolbar-button-disabled { background-color: rgb(240, 240, 240); margin: 0pt 1px; padding: 0pt 1px; }
+:first-child + html .goog-toolbar-button-collapse-left .goog-toolbar-button-inner-box { left: 0pt; }
+:first-child + html .goog-toolbar-menu-button-inner-box { left: -1px; }
+:first-child + html .goog-toolbar-menu-button-rtl .goog-toolbar-menu-button-inner-box { left: 1px; right: auto; }
+:first-child + html .goog-toolbar-menu-button-disabled { background-color: rgb(240, 240, 240); margin: 0pt 1px; padding: 0pt 1px; }
+body { background-color: white; color: black; font-family: Arial,sans-serif,sans; font-size: 13px; margin: 0pt; }
+:first-child + html .docs-titlebar-buttons-inner { overflow: hidden; position: relative; }
+body .goog-button-base { font-size: 12px; }
+html, body { padding: 0pt; margin: 0pt; direction: ltr; }
+body { font: 10pt Arial,sans-serif; }
+a img { border: 0pt none; padding: 0pt; }
+td { vertical-align: top; }
+#sites-chrome-everything #sites-chrome-header .sites-logo { float: left; padding: 0pt 10px 0pt 0pt; background-color: transparent; }
+#sites-chrome-everything { margin: 0pt auto; }
+#sites-canvas-main { min-height: 150px; padding-bottom: 5px; padding-top: 15px; }
+#sites-canvas-main table { margin: 0pt; }
+#title-crumbs, body #sites-page-title-header, .sites-tile-name-header, #sites-canvas-main .sites-tile-name-content-1, .sites-tile-name-footer, .sites-subpages, .sites-kix-editor-wrapper { padding-left: 10px; padding-right: 10px; }
+#sites-canvas-main .sites-tile-name-content-1, #sites-canvas-main .sites-tile-name-content-2, #sites-canvas-main .sites-tile-name-content-3 { padding-top: 10px; padding-bottom: 10px; }
+#sites-chrome-everything #sites-chrome-header img { padding: 0pt; border: 0pt none; }
+.goog-button { cursor: pointer; }
+#sites-status { position: fixed; z-index: 1010; }
+.sites-notice { background: none repeat scroll 0% 0% rgb(255, 204, 51); color: rgb(0, 0, 0); display: inline; font: bold 13px Arial,sans-serif; padding: 2px 10px 3px; z-index: 199; }
+#sites-header-title h2 { margin: 0pt; }
+#sites-header-title h2 a { text-decoration: none; }
+#sites-page-title-header { font-size: 22px; font-weight: bold; margin: 0pt; }
+div.sites-sidebar-nav { border-bottom: 0pt none; padding-bottom: 0pt; overflow: hidden; }
+.sites-sidebar-nav a { display: block; text-decoration: none; }
+.sites-sidebar-nav a:hover { text-decoration: underline; }
+#body .sites-sidebar-nav ul { line-height: 1.33em; margin: 0pt; padding: 0pt; overflow: visible; }
+.sites-sidebar-nav a, .sites-sidebar-nav .current-bg { overflow: hidden; }
+.sites-sidebar-nav li.closed .expander { background-position: -192px -3px; }
+.sites-sidebar-nav li.closed ul { display: none; }
+.sites-sidebar-nav a.topLevel { font-weight: bold; }
+.sites-sidebar-nav li.topLevel { border-top: 1px solid transparent; margin-top: 1px; margin-bottom: 1px; }
+.sites-sidebar-nav li.nav-first { border-top-width: 0pt; margin-top: 0pt; }
+.sites-adminfooter { font-size: 11px; text-align: center; }
+.sites-adminfooter p { margin: 0pt; padding: 5px; }
+.sites-embed { margin: 0pt 0pt 6px; }
+.sites-embed-content, .sites-embed-content-notitle { overflow: hidden; }
+#sites-searchbox-form { padding: 0pt; margin: 0pt; }
+#sites-chrome-everything { width: 100%; }
+#sites-chrome-sidebar-left, #sites-chrome-sidebar-right, .sites-canvas-sidebar { width: 150px; }
+body { background-color: rgb(255, 255, 255); }
+#sites-chrome-everything h2, #sites-chrome-everything h3, #sites-chrome-everything h4 { font-family: "Trebuchet MS",arial,sans-serif; }
+#sites-chrome-everything h2 { color: rgb(178, 178, 178); font-size: 1.8em; letter-spacing: 0.1em; font-weight: normal; }
+#sites-chrome-everything h3 { color: rgb(119, 119, 119); font-size: 1.4em; font-weight: normal; border-bottom: 3px double rgb(199, 199, 199); background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+#sites-chrome-everything h4 { font-size: 1.2em; background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px dotted rgb(199, 199, 199); color: rgb(26, 66, 146); padding: 3px 5px; }
+td { vertical-align: top; padding: 1px 4px; }
+#sites-chrome-everything a, #sites-chrome-everything .goog-tree-item-label a { color: rgb(26, 66, 146); border-bottom: 1px solid transparent; }
+#sites-chrome-everything a:visited, #sites-chrome-everything .goog-tree-item-label a:visited { color: rgb(94, 122, 178); }
+#sites-chrome-everything a:hover, #sites-chrome-everything a:active, #sites-chrome-everything .goog-tree-item-label a:hover { text-decoration: none; border-bottom: 1px dotted rgb(187, 36, 45); background-color: rgb(224, 224, 224); }
+ul li { list-style-position: outside; list-style-type: square; }
+#sites-chrome-everything { color: rgb(0, 0, 0); line-height: 1.5; padding: 0pt; }
+#sites-chrome-page-wrapper { width: 90%; margin: auto; }
+#sites-chrome-header-wrapper { border-top: 7px solid rgb(187, 36, 45); border-bottom: 40px solid rgb(199, 199, 199); }
+#sites-chrome-footer-wrapper { border-bottom: 7px solid rgb(187, 36, 45); }
+#sites-chrome-main { text-align: left; padding: 0pt; margin-bottom: 10px; margin-top: 0pt; }
+#sites-chrome-footer { border-bottom: 3px solid rgb(187, 36, 45); margin-bottom: 2px; border-top: 1px solid rgb(199, 199, 199); }
+#sites-chrome-header { border-top: 3px solid rgb(187, 36, 45); margin-top: 2px; }
+.sites-header-primary-row #sites-header-title { height: 75px; padding-left: 5px; }
+body #sites-header-title h2 { font: 3em "Trebuchet MS",arial,sans-serif; margin: 0pt; letter-spacing: 4px; }
+#sites-header-title h2 a, #sites-header-title h2 a:visited { color: rgb(178, 178, 178); background-color: transparent; border-bottom: medium none; }
+#sites-header-title h2 a:hover, #sites-header-title h2 a:active { text-decoration: underline; background-color: transparent; border-bottom: medium none; }
+.sites-header-primary-row td { vertical-align: top; }
+.sites-header-primary-row .sites-header-cell-buffer-wrapper { padding: 15px 10px 10px; }
+body #sites-chrome-everything #sites-chrome-sidebar-left { padding: 15px 0pt 20px; width: 150px; margin: 10px 0pt; }
+#sites-chrome-sidebar-left .sites-embed, #sites-chrome-sidebar-right .sites-embed { color: rgb(0, 0, 0); font-size: 12px; padding-bottom: 10px; margin-bottom: 5px; }
+body #sites-chrome-sidebar-left .sites-embed-content, body #sites-chrome-sidebar-left .sites-embed-content-notitle, body #sites-chrome-sidebar-right .sites-embed-content, body #sites-chrome-sidebar-right .sites-embed-content-notitle { margin: 0pt; }
+body #sites-chrome-sidebar-left .sites-embed-title, body #sites-chrome-sidebar-right .sites-embed-title { color: rgb(187, 36, 45); background: none repeat scroll 0% 0% transparent; font: bold 1.1em "Trebuchet MS",arial,sans-serif; margin: 0pt; padding: 2px 0pt 3px; border: medium none; }
+#sites-chrome-sidebar-left .sites-sidebar-nav, #sites-chrome-sidebar-right .sites-sidebar-nav {  }
+#sites-chrome-sidebar-left .sites-sidebar-nav a, #sites-chrome-sidebar-right .sites-sidebar-nav a, #sites-chrome-sidebar-left .sites-sidebar-nav a:visited, #sites-chrome-sidebar-right .sites-sidebar-nav a:visited { color: rgb(26, 66, 146); border-bottom: 1px solid transparent; text-decoration: none; background-color: transparent; }
+#sites-chrome-everything .sites-sidebar-nav a:hover { text-decoration: underline; }
+.sites-sidebar-nav .expander { margin-top: 2px; }
+.sites-sidebar-recent-activity ul .sites-sidebar-recent-activity-viewall, .sites-sidebar-nav li.topLevel { border-top-color: transparent; }
+.sites-sidebar-nav .current-bg { color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(187, 36, 45); font-weight: bold; border-bottom: medium none; }
+#sites-canvas { padding-top: 5px; }
+.sites-canvas-main { background-color: transparent; }
+body #sites-page-title-header { color: rgb(26, 66, 146); font: bold 1.8em "Trebuchet MS",arial,sans-serif; border-bottom: medium none; background: none repeat scroll 0% 0% transparent; }
+/* ::::: http://www.hack4.jp/_/rsrc/1305556023000/system/app/css/overlay.css?cb=microsport10a%25200goog-ws-leftnone30themedefaultstandard ::::: */
+
+#sites-chrome-everything #sites-chrome-header, #sites-chrome-everything #sites-chrome-header-wrapper { height: auto ! important; }
+#sites-chrome-header .sites-header-primary-row { display: table-row; }
+#sites-chrome-sidebar-left, #sites-chrome-sidebar-right { width: 200px ! important; }
+#sites-header-title h2 a { color: rgb(255, 255, 255) ! important; }
+#sites-header-title h2 a:visited { color: rgb(255, 255, 255) ! important; }
+#sites-chrome-header { background-color: transparent ! important; }
+#sites-chrome-header-wrapper { background-color: rgb(255, 255, 255) ! important; }
+#sites-chrome-header { background-image: none ! important; }
+#sites-chrome-header-wrapper { background-image: url('6c2c7b29ebc31423.png') ! important; background-position: right top ! important; background-repeat: no-repeat ! important; }
+#sites-chrome-everything, #sites-chrome-footer, #sites-chrome-everything h1, #sites-chrome-everything h2, #sites-chrome-everything h3, #sites-chrome-everything h4, #sites-chrome-everything h5, #sites-chrome-everything h6, span #sites-page-title, #sites-chrome-everything .goog-tree-item-label, #sites-chrome-everything input { font-family: arial ! important; }
+#sites-chrome-sidebar-left .sites-embed, #sites-chrome-sidebar-left .sites-embed h1, #sites-chrome-sidebar-left .sites-embed h2, #sites-chrome-sidebar-left .sites-embed h3, #sites-chrome-sidebar-left .sites-embed h4, #sites-chrome-sidebar-left .sites-embed h5, #sites-chrome-sidebar-left .sites-embed h6, #sites-chrome-sidebar-right .sites-embed, #sites-chrome-sidebar-right .sites-embed h1, #sites-chrome-sidebar-right .sites-embed h2, #sites-chrome-sidebar-right .sites-embed h3, #sites-chrome-sidebar-right .sites-embed h4, #sites-chrome-sidebar-right .sites-embed h5, #sites-chrome-sidebar-right .sites-embed h6, .sites-edit-sidebar-link { font-family: arial ! important; }
+#sites-chrome-sidebar-left .sites-sidebar-nav a, #sites-chrome-sidebar-right .sites-sidebar-nav a { color: rgb(26, 66, 146) ! important; }
+#sites-chrome-header-wrapper { border-bottom: 0px none ! important; }

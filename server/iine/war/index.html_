@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>いいね！API</title>
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="keywords" content="CSSハック,hack" />
+<meta name="description" content="最近のブラウザ（2008年01月くらい）で使えそうなCSSハックをまとめてます。" />
+<link href="mailto:hoge&#64;example.com" rev="made" />
+<link href="/index.html" rel="index" />
+<link href="/img/share/favicon.png" rel="icon" type="image/png" />
+<link href="/img/share/favicon.ico" rel="shortcut icon" />
+
+<!-- stylesheet -->
+<link href="/css/import.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+
+<body id="cssHappyLife" class="indexBody">
+
+<div id="page">
+
+<span id="navSkip"><a href="#main" tabindex="1" title="本文へジャンプ"><img src="./img/share/skip.gif" alt="本文へジャンプ" width="1" height="1" /></a></span>
+
+<div id="header">
+<div class="area">
+
+
+<h1 style="margin:0px; margin-bottom:-10px"><img src="img/share/title.gif" /></h1>
+</div>
+<!-- / #header --></div>
+
+
+<div id="contents">
+<div class="area">
+
+<div id="main">
+
+<h2>復興いいね！</h2>
+
+
+現在準備中です！（2011年05月28日）
+
+<br><br>
+
+
+<!-- / #main --></div>
+
+
+
+<p class="pageTop"><a href="#page" title="このページの先頭へ">ページトップへ</a></p>
+
+</div>
+<!-- / #contents --></div>
+
+
+<div id="footer">
+<div class="area">
+<p class="copy">this site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/" title="Creative Commons License 表示-非営利 2.1 日本">Creative Commons License</a>. * But, a part of contents is excluded.</p>
+</div>
+<!-- / #footer --></div>
+
+<!-- / #page --></div>
+
+</body>
+</html>

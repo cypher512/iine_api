@@ -1,0 +1,3 @@
+# Module iine
+# RPC service class, partial path of RPC policy file
+org.iine.client.GreetingService, A93149A995E1EAE7708A0C2AFB13DCCA.gwt.rpc

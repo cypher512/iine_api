@@ -1,0 +1,2 @@
+serviceClass: org.iine.client.GreetingService
+path: A93149A995E1EAE7708A0C2AFB13DCCA.gwt.rpc
