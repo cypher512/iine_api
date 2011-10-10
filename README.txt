@@ -2,5 +2,13 @@
 冴木元による開発版であるため、内容は公式版と異なることがあります
 
 ディレクトリ構成
+<<<<<<< HEAD
+=======
+client        クライアント側の環境
+  +-  package パッケージ
+  +-  source  ソースコード
+>>>>>>> master
 server
   +-  iine_sample サーバ側のEclipseパッケージ
+  +-  iine α版時のEclipseパッケージ
+
